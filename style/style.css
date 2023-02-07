@@ -218,7 +218,7 @@ line-height: 3rem;
     display: grid;
 }
 
-#title  h2 {
+#title h2 {
     font-weight: 500;
     font-size: 3.5rem;
     line-height: 5rem;
@@ -236,7 +236,7 @@ line-height: 3rem;
     display: flex;
     gap: 5rem;
     justify-self: center;
-    margin-top: 6rem;
+    margin: 6rem 0 15rem;
 }
 
 #info-plans div {
@@ -279,7 +279,7 @@ line-height: 3rem;
     text-align: left;
 }
 
-#info-plans div h2 {
+#price h2 {
     font-size: 2.5rem;
     font-weight: 500;
     line-height: 3rem;
@@ -291,6 +291,10 @@ line-height: 3rem;
     font-weight: 400;
 }
 
+#info-plans #premium {
+    border: 2px solid #F53855;
+}
+
 #info-plans div button {
     color: #F53838;
     font-weight: 700;
@@ -299,12 +303,30 @@ line-height: 3rem;
     background-color: #FFF;
     border-radius: 5rem;
     letter-spacing: .8px;
+    transition: background ease-in;
 }
 
-#info-plans #premium {
+#info-plans #premium button {
     background-color: #F53838;
     color: #FFF;
     -webkit-box-shadow: 0px 13px 35px -15px rgba(245,56,56,1);
--moz-box-shadow: 0px 13px 35px -15px rgba(245,56,56,1);
-box-shadow: 0px 13px 35px -15px rgba(245,56,56,1);
+    -moz-box-shadow: 0px 13px 35px -15px rgba(245,56,56,1);
+    box-shadow: 0px 13px 35px -15px rgba(245,56,56,1);
 }
+
+/* start plans hover */
+
+#info-plans #premium button:hover {
+    background-color: #FFF;
+    color: #F53838;
+    border: 2px solid #F53838;
+    cursor: pointer;
+}
+
+#info-plans button:hover {
+    background: #F53838;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* end plans hover */
