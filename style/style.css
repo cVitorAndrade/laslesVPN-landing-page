@@ -213,19 +213,21 @@ line-height: 3rem;
     align-items: center;
     gap: 1.5rem;
 }
-#plans {
+#plans, #global {
     text-align: center;
     display: grid;
 }
 
-#title h2 {
+#title h2, #global h2 {
     font-weight: 500;
     font-size: 3.5rem;
     line-height: 5rem;
     color: #0B132A;
+    width: 38rem;
+    margin: 0 auto 2rem;
 }
 
-#title p {
+#title p, #global p {
     line-height: 3rem;
     color: #4F5665;
     width: 55rem;
@@ -330,3 +332,11 @@ line-height: 3rem;
 }
 
 /* end plans hover */
+
+#global p span {
+    font-weight: 500;
+}
+
+#global img {
+    margin: 15rem auto 0;
+}
