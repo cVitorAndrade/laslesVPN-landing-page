@@ -370,6 +370,7 @@ line-height: 3rem;
     padding: 3rem;
     border: 3px solid #DDDDDD;
     border-radius: 1rem;
+    background-color: #FFF;
 }
 
 .profile-wrapper {
@@ -410,12 +411,13 @@ line-height: 3rem;
     background-color: #FFF;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    margin: 0 auto -11rem;
     -webkit-box-shadow: 10px 10px 43px -10px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 43px -10px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 43px -10px rgba(0,0,0,0.75);
     padding: 5rem 7rem 5rem;
     border-radius: 1rem;
+    z-index: 1000;
 }
 
 #subscribe div h2 {
@@ -454,3 +456,45 @@ line-height: 3rem;
 }
 
 /* end hover subscribe */
+
+
+footer {
+    padding-top: 16rem;
+    width: 100%;
+    display: flex;
+    background-color: #f7f1f1;
+    gap: 23rem;
+    justify-self: center;
+    justify-content: center;
+}
+
+footer .text p {
+    width: 34rem;
+    margin: 2.5rem 0 3rem;
+}
+
+footer .text p,
+footer .text p span {
+    color: #4F5665;
+    line-height: 3rem;
+}
+
+footer .text p span {
+    font-weight: 500;
+}
+
+footer .text ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.text p:last-child {
+    color: #AFB5C0;
+}
+
+.topics {
+    display: flex;
+    gap: 12rem;
+}
